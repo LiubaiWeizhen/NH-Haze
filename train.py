@@ -13,17 +13,9 @@ from core.networks import unet_spp_large_swish_generator_model, unet_encoder_dis
 from keras.optimizers import Adam
 import keras
 
-BASE_DIR = 'weights/final3/'
-
-
-# d_weight_path = ""
-# g_weight_path = ""
-
-# d_weight_path = "./weights/final2/d/discriminator_40_1.h5"
-# g_weight_path = "./weights/final2/g/generator_40_192_1.h5"
+BASE_DIR = 'weights'
 
 d_weight_path = "./weights/d/discriminator_40.h5"
-# # g_weight_path = "./weights/nhhaze_generator_in512_ep160_loss297.h5"
 g_weight_path = "./weights/g/generator_40_149.h5"
 
 
